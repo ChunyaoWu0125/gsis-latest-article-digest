@@ -1,0 +1,4 @@
+interface:
+  display_name: "GSIS Latest Article Digest"
+  short_description: "Monitor GSIS papers and draft bilingual digests"
+  default_prompt: "Use $gsis-latest-article-digest to find new GSIS articles and prepare a verified bilingual digest."

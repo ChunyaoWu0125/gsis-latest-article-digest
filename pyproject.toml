@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gsis-notifier"
+version = "0.2.1"
+description = "Local GSIS article monitor with evidence-grounded bilingual drafts and Feishu delivery"
+requires-python = ">=3.10"
+dependencies = [
+  "beautifulsoup4>=4.12",
+  "lxml>=5.0",
+  "openai>=2.0",
+  "pydantic>=2.7",
+  "python-dotenv>=1.0",
+  "requests>=2.32",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[project.scripts]
+gsis-notifier = "gsis_notifier.cli:main"
+
+[project.urls]
+Repository = "https://github.com/ChunyaoWu0125/gsis-latest-article-digest"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
