@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/31519813/README.md)
 # GSIS Latest Article Digest
 
 面向 **Geo-spatial Information Science（GSIS）** 的论文监测工具：从 Crossref 发现近期文章，以 DOAJ 补充摘要和作者关键词，按 DOI 去重，调用模型生成中英文 LinkedIn 草稿，并推送到飞书群机器人。
