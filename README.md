@@ -1,6 +1,8 @@
 # GSIS Latest Article Digest
 
-面向 **Geo-spatial Information Science（GSIS）** 的论文监测工具：从 Crossref 发现近期文章，以 DOAJ 补充摘要和作者关键词，按 DOI 去重，调用模型生成中英文 LinkedIn 草稿，并推送到飞书群机器人。
+关注期刊，最新论文简介主动发送到你的飞书。
+
+面向 Geo-spatial Information Science（GSIS）定制的论文订阅助手，自动追踪期刊新文章，整理中英文简介，定时推送至飞书。一次配置，持续关注，让期刊阅读更省心。
 
 仓库：[ChunyaoWu0125/gsis-latest-article-digest](https://github.com/ChunyaoWu0125/gsis-latest-article-digest)
 
