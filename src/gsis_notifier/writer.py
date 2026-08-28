@@ -10,7 +10,10 @@ from openai import OpenAI
 
 from .models import Article, GeneratedDraft, ReviewResult
 
-HASHTAG_RE = re.compile(r"(?<!\w)#([\w\u3400-\u9fff]+)", re.UNICODE)
+HASHTAG_RE = re.compile(
+    r"(?<![A-Za-z0-9_#])#([\w\u3400-\u9fff]+)",
+    re.UNICODE,
+)
 NUMBER_RE = re.compile(r"(?<![\w.])\d+(?:\.\d+)?%?")
 LOGGER = logging.getLogger(__name__)
 
